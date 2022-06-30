@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *  *main - Uses puts function to print a line
  *   *
  *    *Description: We are unable to use printf so must use put to print this string
