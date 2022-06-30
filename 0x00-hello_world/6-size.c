@@ -3,7 +3,7 @@
  *  *main - Prints the sizes of different variables in bytes
  *   *
  *    *Return: 0
- *     
+ *
  */
 int main(void)
 {
