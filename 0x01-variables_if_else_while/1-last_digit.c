@@ -8,7 +8,7 @@
  *     *out. It also denotes if this number is great than 5, is zero,
  *      *or if it is less than 6.
  *       *Return: 0
- *        
+ *
  */
 int main(void)
 {
