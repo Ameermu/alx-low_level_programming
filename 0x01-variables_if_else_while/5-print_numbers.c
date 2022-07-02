@@ -4,17 +4,19 @@
  *   *
  *    *description: Will print out base 10's single digit numbers
  *     *Return: 0
- *      */
+ *      
+ */
 int main(void)
 {
-		int n = 0;
+		
+	int n = 0;
 
-			while (n < 10)
-					{
-								printf("%d", n);
-										n++;
-											}
+	while (n < 10)
+	{
+		printf("%d", n);
+		n++;
+	}
 
-				putchar('\n');
-					return (0);
+	putchar('\n');
+	return (0);
 }
