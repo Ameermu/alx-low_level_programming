@@ -15,13 +15,15 @@ int main(void)
 		putchar('0' + n);
 		if (n == 9)
 		{
-																				putchar('\n');
-			  break;													      	      }
+			putchar('\n');
+			break;
+		}
 		else
 		{
-																				putchar(44);
-			  putchar(' ');
-			  n++;															      }
+			putchar(44);
+			putchar(' ');
+			n++;
+		}
 	}
 
 	return (0);
