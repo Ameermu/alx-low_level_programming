@@ -4,23 +4,23 @@
  *   *
  *    *Description: Use putchar to print single digit numbers followed by a-f
  *     *Return: 0
- *      */
+ */
 int main(void)
 {
-		int n = 0;
-			int l = 'a';
+	int n = 0;
+	int l = 'a';
 
-				while (n < 10)
-						{
-									putchar('0' + n);
-											n++;
-												}
+	while (n < 10)
+	{
+		putchar('0' + n);
+		n++;
+	}
 
-					while (l <= 'f')
-							{
-										putchar(l);
-												l++;
-													}
-						putchar('\n');
-							return (0);
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
+	}
+	putchar('\n');
+	return (0);
 }
