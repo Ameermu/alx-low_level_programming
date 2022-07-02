@@ -4,7 +4,7 @@
  *   *
  *    *Description: We can use putchar 3 times
  *     *Return: 0
- *      
+ *
  */
 int main(void)
 {
