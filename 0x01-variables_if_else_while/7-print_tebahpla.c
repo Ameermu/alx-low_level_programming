@@ -4,18 +4,18 @@
  *   *
  *    *Description: We are only allowed to use putchar
  *     *Return: 0
- *      */
+ */
 
 int main(void)
 {
-		char n = 'z';
+	char n = 'z';
 
-			while (n >= 'a')
-					{
-								putchar(n);
-										n--;
-											}
+	while (n >= 'a')
+	{
+		putchar(n);
+		n--;
+	}
 
-				putchar('\n');
-					return (0);
+	putchar('\n');
+	return (0);
 }
