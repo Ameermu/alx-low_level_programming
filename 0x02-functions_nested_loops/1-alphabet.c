@@ -1,18 +1,16 @@
-#include "main.h"
+nclude "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase,
- * followed by a new line.
- * Return: return void.
+ * print_alphabet - prints the english alphabet
+ * Return: 0
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for(i = 'a'; i <= 'z'; i++)
 	{
-		_putchar (i);
+		_putchar(i);
 	}
 
-		_putchar ('\n');
-
+	_putchar ('\n');
 }
