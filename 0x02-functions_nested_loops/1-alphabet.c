@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_alphabet - prints the english alphabet
  * Return: 0
