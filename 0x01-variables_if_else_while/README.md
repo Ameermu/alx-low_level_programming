@@ -1,3 +1,5 @@
+In this project we go deeper into C-programming and we learn new concepts today which are variables and loops"if,while,else" attached to this README are tasks assigned to us by ALX the instructions for the task is hereby attached below for anyone who wants to try.
+
 TASK 0 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 
     if the number is greater than 0: is positive
