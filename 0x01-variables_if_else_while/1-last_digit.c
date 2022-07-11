@@ -2,13 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  *main - hold all the code
- *   *
- *    *Description: Code finds that last number in an int and prints it
- *     *out. It also denotes if this number is great than 5, is zero,
- *      *or if it is less than 6.
- *       *Return: 0
+ * main - hold all the code
  *
+ * Description: Code finds that last number in an int and prints it
+ * out. It also denotes if this number is great than 5, is zero,
+ * or if it is less than 6.
+ * Return: 0
  */
 int main(void)
 {
