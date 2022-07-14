@@ -7,7 +7,7 @@
  * Return: pointer to the resulting string
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int len1; /* string length for src */
 	int len2; /* string length for dest */
