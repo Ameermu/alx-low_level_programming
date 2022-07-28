@@ -5,10 +5,10 @@
 
 /**
  * string_nconcat - concatenates two strings
- * @s1: The first string
- * @s2: The second string
+ * @str1: pointer to the first string
+ * @str2: pointer to the second string
  * @size: size of str2 to be concatenated
- * Return: newly allocated memory in space;
+ * Return: pointer to the concatenated string
  * NULL if the function fails
  */
 
@@ -34,4 +34,3 @@ char *string_nconcat(char *str1, char *str2, unsigned int size)
 
 	return (ptr);
 }
-
