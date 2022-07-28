@@ -7,43 +7,31 @@
  * string_nconcat - concatenates two strings
  * @s1: The first string
  * @s2: The second string
- * @n: the number of bytes to include of @s2
+ * @size: size of str2 to be concatenated
  * Return: newly allocated memory in space;
  * NULL if the function fails
  */
 
 char *string_nconcat(char *str1, char *str2, unsigned int size)
 {
-	char *ar;
-	unsigned int i = 0;
-	unsigned int j = 0;
-	unsigned int m;
-	unsigned int p;
-	unsigned int k = 0;
-	unsigned int len;
+	unsigned int len1, len2;
+	char *ptr;
 
-	if (s1 == NULL)
-		s1 = "";
-	if (s2 == NULL)
-		s2 = "";
-	while (s1[i])
-		i++;
-	while (s2[j])
-		j++;
-	if (j > n)
-		j = n;
+	if (str1 == NULL)
+		str1 = "";
+	if (str2 == NULL)
+		str2 = "";
 
-	len = i + j;
+	len1 = strlen(str1);
+	len2 = strlen(str2) <= size ? strlen(str2) : size;
+	ptr = malloc(len1 + len2 + 1);
 
-	ar = malloc(sizeof(char) * (len + 1));
-	if (ar == NULL)
-			return (NULL);
+	if (ptr == NULL)
+		return (NULL);
+	
+	strcpy(ptr, str1);
+	strncat(ptr, str2, size);
 
-	for (p = 0; p < i; p++)
-			ar[k++] = s1[p];
-	for (m = 0; m < j; m++)
-			ar[k++] = s2[m];
-
-	ar[k] = '\0';
-	return (ar);
+	return (ptr);
 }
+
