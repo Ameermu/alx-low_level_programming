@@ -4,7 +4,8 @@
 
 /**
  * _calloc - allocates memory dynamically for an array
- * @size: size of the memory
+ * @nmemb: the number of elements
+ * @size: the size of that element type
  *
  * Return: a pointer to the allocated memory
  */
