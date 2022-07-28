@@ -28,7 +28,7 @@ char *string_nconcat(char *str1, char *str2, unsigned int size)
 
 	if (ptr == NULL)
 		return (NULL);
-	
+
 	strcpy(ptr, str1);
 	strncat(ptr, str2, size);
 
