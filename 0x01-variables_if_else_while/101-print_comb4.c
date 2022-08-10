@@ -2,7 +2,7 @@
 
 /**
  * main - output all single digit number of base 10
- * REturn: 0 if successful
+ * Return: 0 if successful
  */
 
 int main(void)
