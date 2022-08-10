@@ -19,6 +19,7 @@ int main(void)
 			putchar((var % 10) + '0');
 			putchar(' ');
 			putchar((ii / 10) + '0');
+			putchar((ii % 10) + '0');
 
 			if (var != 98)
 			{
