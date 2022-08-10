@@ -3,12 +3,12 @@
 #include <string.h>
 
 /**
- * _cap_string - capitalizes all words in one string
- * @str: The string to be looked into
- * Return: The capitalized string
+ * cap_string - capitalizes all words in one string
+ * @str: pointer to the string variable
+ * Return: pointer to the string str
  */
 
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int i = 0, j, flag;
 	char wordSep[] = ",\t;\n; .!?\"(){}";
